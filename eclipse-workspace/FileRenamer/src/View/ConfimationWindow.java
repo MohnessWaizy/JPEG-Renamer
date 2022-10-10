@@ -58,7 +58,7 @@ public class ConfimationWindow {
 				frame.dispose();
 			}
 		});
-		skipButton.setBounds(70, 212, 89, 23);
+		skipButton.setBounds(70, 212, 95, 23);
 		frame.getContentPane().add(skipButton);
 		
 		JButton renameButton = new JButton("Rename");
@@ -157,7 +157,7 @@ public class ConfimationWindow {
 				
 			}
 		});
-		renameButton.setBounds(270, 212, 89, 23);
+		renameButton.setBounds(270, 212, 95, 23);
 		frame.getContentPane().add(renameButton);
 		
 		JLabel informationLabel = new JLabel("<html><div style='text-align: center;'>You are renaming: <br><br>"+f.getName()+"</div></html>", SwingConstants.CENTER);

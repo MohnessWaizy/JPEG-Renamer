@@ -44,7 +44,7 @@ public class MainWindow {
 		textFieldPath.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("Please enter folder path:");
-		lblNewLabel.setBounds(10, 109, 418, 23);
+		lblNewLabel.setBounds(10, 109, 420, 23);
 		frame.getContentPane().add(lblNewLabel);
 		
 		JCheckBox checkBoxRecursive = new JCheckBox("Recursive");
@@ -70,12 +70,12 @@ public class MainWindow {
 				
 			}
 		});
-		renameButton.setBounds(339, 231, 89, 23);
+		renameButton.setBounds(339, 231, 95, 23);
 		frame.getContentPane().add(renameButton);
 		
 		JLabel lblNewLabel_1 = new JLabel("JPEG File Renamer");
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 22));
-		lblNewLabel_1.setBounds(126, 11, 190, 34);
+		lblNewLabel_1.setBounds(126, 11, 250, 34);
 		frame.getContentPane().add(lblNewLabel_1);
 	
 	frame.getRootPane().setDefaultButton(renameButton);
